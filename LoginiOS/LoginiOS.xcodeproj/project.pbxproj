@@ -16,6 +16,8 @@
 		1AE654531C62941B0041DBAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AE654511C62941B0041DBAC /* LaunchScreen.storyboard */; };
 		1AE6545E1C62941B0041DBAC /* LoginiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE6545D1C62941B0041DBAC /* LoginiOSTests.m */; };
 		1AE654691C62941B0041DBAC /* LoginiOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE654681C62941B0041DBAC /* LoginiOSUITests.m */; };
+		1AE654781C62948D0041DBAC /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE654771C62948D0041DBAC /* LoginVC.m */; };
+		1AE6547B1C6295ED0041DBAC /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE6547A1C6295ED0041DBAC /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		1AE654641C62941B0041DBAC /* LoginiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AE654681C62941B0041DBAC /* LoginiOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginiOSUITests.m; sourceTree = "<group>"; };
 		1AE6546A1C62941B0041DBAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AE654761C62948D0041DBAC /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		1AE654771C62948D0041DBAC /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		1AE654791C6295ED0041DBAC /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		1AE6547A1C6295ED0041DBAC /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,10 @@
 				1AE654441C62941A0041DBAC /* AppDelegate.m */,
 				1AE654461C62941A0041DBAC /* ViewController.h */,
 				1AE654471C62941A0041DBAC /* ViewController.m */,
+				1AE654761C62948D0041DBAC /* LoginVC.h */,
+				1AE654771C62948D0041DBAC /* LoginVC.m */,
+				1AE654791C6295ED0041DBAC /* User.h */,
+				1AE6547A1C6295ED0041DBAC /* User.m */,
 				1AE654491C62941A0041DBAC /* Main.storyboard */,
 				1AE6544F1C62941B0041DBAC /* Assets.xcassets */,
 				1AE654511C62941B0041DBAC /* LaunchScreen.storyboard */,
@@ -275,6 +285,8 @@
 			files = (
 				1AE654481C62941A0041DBAC /* ViewController.m in Sources */,
 				1AE6544E1C62941A0041DBAC /* LoginiOS.xcdatamodeld in Sources */,
+				1AE6547B1C6295ED0041DBAC /* User.m in Sources */,
+				1AE654781C62948D0041DBAC /* LoginVC.m in Sources */,
 				1AE654451C62941A0041DBAC /* AppDelegate.m in Sources */,
 				1AE654421C62941A0041DBAC /* main.m in Sources */,
 			);
