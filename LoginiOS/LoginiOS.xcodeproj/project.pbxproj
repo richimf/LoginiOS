@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AE654421C62941A0041DBAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE654411C62941A0041DBAC /* main.m */; };
+		1AE654451C62941A0041DBAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE654441C62941A0041DBAC /* AppDelegate.m */; };
+		1AE654481C62941A0041DBAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE654471C62941A0041DBAC /* ViewController.m */; };
+		1AE6544B1C62941A0041DBAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AE654491C62941A0041DBAC /* Main.storyboard */; };
+		1AE6544E1C62941A0041DBAC /* LoginiOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1AE6544C1C62941A0041DBAC /* LoginiOS.xcdatamodeld */; };
+		1AE654501C62941B0041DBAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AE6544F1C62941B0041DBAC /* Assets.xcassets */; };
+		1AE654531C62941B0041DBAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AE654511C62941B0041DBAC /* LaunchScreen.storyboard */; };
+		1AE6545E1C62941B0041DBAC /* LoginiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE6545D1C62941B0041DBAC /* LoginiOSTests.m */; };
+		1AE654691C62941B0041DBAC /* LoginiOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE654681C62941B0041DBAC /* LoginiOSUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AE6545A1C62941B0041DBAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AE654351C62941A0041DBAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AE6543C1C62941A0041DBAC;
+			remoteInfo = LoginiOS;
+		};
+		1AE654651C62941B0041DBAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AE654351C62941A0041DBAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AE6543C1C62941A0041DBAC;
+			remoteInfo = LoginiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AE6543D1C62941A0041DBAC /* LoginiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AE654411C62941A0041DBAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1AE654431C62941A0041DBAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1AE654441C62941A0041DBAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1AE654461C62941A0041DBAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1AE654471C62941A0041DBAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1AE6544A1C62941A0041DBAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AE6544D1C62941A0041DBAC /* LoginiOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoginiOS.xcdatamodel; sourceTree = "<group>"; };
+		1AE6544F1C62941B0041DBAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AE654521C62941B0041DBAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1AE654541C62941B0041DBAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AE654591C62941B0041DBAC /* LoginiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AE6545D1C62941B0041DBAC /* LoginiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginiOSTests.m; sourceTree = "<group>"; };
+		1AE6545F1C62941B0041DBAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AE654641C62941B0041DBAC /* LoginiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AE654681C62941B0041DBAC /* LoginiOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginiOSUITests.m; sourceTree = "<group>"; };
+		1AE6546A1C62941B0041DBAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AE6543A1C62941A0041DBAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AE654561C62941B0041DBAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AE654611C62941B0041DBAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AE654341C62941A0041DBAC = {
+			isa = PBXGroup;
+			children = (
+				1AE6543F1C62941A0041DBAC /* LoginiOS */,
+				1AE6545C1C62941B0041DBAC /* LoginiOSTests */,
+				1AE654671C62941B0041DBAC /* LoginiOSUITests */,
+				1AE6543E1C62941A0041DBAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AE6543E1C62941A0041DBAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AE6543D1C62941A0041DBAC /* LoginiOS.app */,
+				1AE654591C62941B0041DBAC /* LoginiOSTests.xctest */,
+				1AE654641C62941B0041DBAC /* LoginiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AE6543F1C62941A0041DBAC /* LoginiOS */ = {
+			isa = PBXGroup;
+			children = (
+				1AE654431C62941A0041DBAC /* AppDelegate.h */,
+				1AE654441C62941A0041DBAC /* AppDelegate.m */,
+				1AE654461C62941A0041DBAC /* ViewController.h */,
+				1AE654471C62941A0041DBAC /* ViewController.m */,
+				1AE654491C62941A0041DBAC /* Main.storyboard */,
+				1AE6544F1C62941B0041DBAC /* Assets.xcassets */,
+				1AE654511C62941B0041DBAC /* LaunchScreen.storyboard */,
+				1AE654541C62941B0041DBAC /* Info.plist */,
+				1AE6544C1C62941A0041DBAC /* LoginiOS.xcdatamodeld */,
+				1AE654401C62941A0041DBAC /* Supporting Files */,
+			);
+			path = LoginiOS;
+			sourceTree = "<group>";
+		};
+		1AE654401C62941A0041DBAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AE654411C62941A0041DBAC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AE6545C1C62941B0041DBAC /* LoginiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AE6545D1C62941B0041DBAC /* LoginiOSTests.m */,
+				1AE6545F1C62941B0041DBAC /* Info.plist */,
+			);
+			path = LoginiOSTests;
+			sourceTree = "<group>";
+		};
+		1AE654671C62941B0041DBAC /* LoginiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1AE654681C62941B0041DBAC /* LoginiOSUITests.m */,
+				1AE6546A1C62941B0041DBAC /* Info.plist */,
+			);
+			path = LoginiOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AE6543C1C62941A0041DBAC /* LoginiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AE6546D1C62941B0041DBAC /* Build configuration list for PBXNativeTarget "LoginiOS" */;
+			buildPhases = (
+				1AE654391C62941A0041DBAC /* Sources */,
+				1AE6543A1C62941A0041DBAC /* Frameworks */,
+				1AE6543B1C62941A0041DBAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginiOS;
+			productName = LoginiOS;
+			productReference = 1AE6543D1C62941A0041DBAC /* LoginiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AE654581C62941B0041DBAC /* LoginiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AE654701C62941B0041DBAC /* Build configuration list for PBXNativeTarget "LoginiOSTests" */;
+			buildPhases = (
+				1AE654551C62941B0041DBAC /* Sources */,
+				1AE654561C62941B0041DBAC /* Frameworks */,
+				1AE654571C62941B0041DBAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AE6545B1C62941B0041DBAC /* PBXTargetDependency */,
+			);
+			name = LoginiOSTests;
+			productName = LoginiOSTests;
+			productReference = 1AE654591C62941B0041DBAC /* LoginiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1AE654631C62941B0041DBAC /* LoginiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AE654731C62941B0041DBAC /* Build configuration list for PBXNativeTarget "LoginiOSUITests" */;
+			buildPhases = (
+				1AE654601C62941B0041DBAC /* Sources */,
+				1AE654611C62941B0041DBAC /* Frameworks */,
+				1AE654621C62941B0041DBAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AE654661C62941B0041DBAC /* PBXTargetDependency */,
+			);
+			name = LoginiOSUITests;
+			productName = LoginiOSUITests;
+			productReference = 1AE654641C62941B0041DBAC /* LoginiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AE654351C62941A0041DBAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = com.richie;
+				TargetAttributes = {
+					1AE6543C1C62941A0041DBAC = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					1AE654581C62941B0041DBAC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1AE6543C1C62941A0041DBAC;
+					};
+					1AE654631C62941B0041DBAC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1AE6543C1C62941A0041DBAC;
+					};
+				};
+			};
+			buildConfigurationList = 1AE654381C62941A0041DBAC /* Build configuration list for PBXProject "LoginiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AE654341C62941A0041DBAC;
+			productRefGroup = 1AE6543E1C62941A0041DBAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AE6543C1C62941A0041DBAC /* LoginiOS */,
+				1AE654581C62941B0041DBAC /* LoginiOSTests */,
+				1AE654631C62941B0041DBAC /* LoginiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AE6543B1C62941A0041DBAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE654531C62941B0041DBAC /* LaunchScreen.storyboard in Resources */,
+				1AE654501C62941B0041DBAC /* Assets.xcassets in Resources */,
+				1AE6544B1C62941A0041DBAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AE654571C62941B0041DBAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AE654621C62941B0041DBAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AE654391C62941A0041DBAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE654481C62941A0041DBAC /* ViewController.m in Sources */,
+				1AE6544E1C62941A0041DBAC /* LoginiOS.xcdatamodeld in Sources */,
+				1AE654451C62941A0041DBAC /* AppDelegate.m in Sources */,
+				1AE654421C62941A0041DBAC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AE654551C62941B0041DBAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE6545E1C62941B0041DBAC /* LoginiOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AE654601C62941B0041DBAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE654691C62941B0041DBAC /* LoginiOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AE6545B1C62941B0041DBAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AE6543C1C62941A0041DBAC /* LoginiOS */;
+			targetProxy = 1AE6545A1C62941B0041DBAC /* PBXContainerItemProxy */;
+		};
+		1AE654661C62941B0041DBAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AE6543C1C62941A0041DBAC /* LoginiOS */;
+			targetProxy = 1AE654651C62941B0041DBAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AE654491C62941A0041DBAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AE6544A1C62941A0041DBAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AE654511C62941B0041DBAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AE654521C62941B0041DBAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AE6546B1C62941B0041DBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AE6546C1C62941B0041DBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AE6546E1C62941B0041DBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoginiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.richie.LoginiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1AE6546F1C62941B0041DBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoginiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.richie.LoginiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1AE654711C62941B0041DBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LoginiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.richie.LoginiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginiOS.app/LoginiOS";
+			};
+			name = Debug;
+		};
+		1AE654721C62941B0041DBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LoginiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.richie.LoginiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginiOS.app/LoginiOS";
+			};
+			name = Release;
+		};
+		1AE654741C62941B0041DBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LoginiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.richie.LoginiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LoginiOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1AE654751C62941B0041DBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LoginiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.richie.LoginiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LoginiOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AE654381C62941A0041DBAC /* Build configuration list for PBXProject "LoginiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AE6546B1C62941B0041DBAC /* Debug */,
+				1AE6546C1C62941B0041DBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AE6546D1C62941B0041DBAC /* Build configuration list for PBXNativeTarget "LoginiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AE6546E1C62941B0041DBAC /* Debug */,
+				1AE6546F1C62941B0041DBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1AE654701C62941B0041DBAC /* Build configuration list for PBXNativeTarget "LoginiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AE654711C62941B0041DBAC /* Debug */,
+				1AE654721C62941B0041DBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1AE654731C62941B0041DBAC /* Build configuration list for PBXNativeTarget "LoginiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AE654741C62941B0041DBAC /* Debug */,
+				1AE654751C62941B0041DBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1AE6544C1C62941A0041DBAC /* LoginiOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1AE6544D1C62941A0041DBAC /* LoginiOS.xcdatamodel */,
+			);
+			currentVersion = 1AE6544D1C62941A0041DBAC /* LoginiOS.xcdatamodel */;
+			path = LoginiOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1AE654351C62941A0041DBAC /* Project object */;
+}
